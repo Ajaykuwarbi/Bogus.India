@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    
+    <!-- NuGet Package Metadata -->
+    <PackageId>BogusData.India</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>ajaykuwarbi</Authors>
+    <Description>India-specific fake data generator extension for Bogus. Generate realistic Indian names, Aadhaar numbers, PAN cards, UPI IDs, IFSC codes, phone numbers, addresses, and more.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ajaykuwarbi/Bogus.India</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ajaykuwarbi/Bogus.India</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>bogus;faker;india;fake-data;test-data;aadhaar;pan;upi;ifsc;indian;mock-data;seed-data;dotnet</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReleaseNotes>Initial release with support for Indian names, addresses, Aadhaar, PAN, UPI, IFSC, phone numbers, states, cities, and PIN codes.</PackageReleaseNotes>
+    
+    <!-- Enable deterministic builds for reproducibility -->
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="35.6.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>

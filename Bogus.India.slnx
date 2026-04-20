@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Bogus.India/Bogus.India.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Bogus.India.Tests/Bogus.India.Tests.csproj" />
+  </Folder>
+</Solution>
